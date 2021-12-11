@@ -1,0 +1,160 @@
+// ejercicios con if else
+var dinero = 20;
+if (dinero < 10){
+ console.log("no te alcanza")
+}else{
+    console.log("te alcanza")
+}
+
+var dinero = 500 ;
+if (dinero > 450){
+    console.log("comprar una playera")
+   }else{
+       console.log("comprar un pantalon")
+   }
+
+var beca = 1000 ;
+if (beca < 100){
+    console.log("comprar galletas")
+   }else{
+       console.log("puedes comprar cereal")
+   }
+
+var beca = 900 ;
+if (beca > 1000){
+    console.log("tienes el dinero para comprarlo")
+   }else{
+       console.log("no tienes el dinero suficiente")
+   }
+
+var sueldo = 5000 ;
+if (sueldo < 5000){
+    console.log("me pagaron bien")
+   }else{
+       console.log("me pagaron muy poco")
+   }
+
+// ejercicios con switch
+var nombre = " Juan";
+switch("nombre"){
+    case "metzi":
+          console.log ("hola hermana de luis");
+    break;
+    case "daniel":
+         console.log ("hola hermano de luis");
+    break;
+    case "Juan":
+         console.log ("hola Juan manuel");
+    break;
+    case "manuel":
+         console.log ("hola manuel");
+    break;
+}
+
+var color = "negro";
+switch("color"){
+    case "negro":
+          console.log ("te gusta el colr negro");
+    break;
+    case "azul":
+         console.log ("te gusta el color azul");
+    break;
+    case "rojo":
+         console.log ("te gusta el color rojo");
+    break;
+
+}
+
+var edad = "25";
+switch("edad"){
+    case "12":
+          console.log ("eres un niño");
+    break;
+    case "25":
+         console.log ("eres un joven");
+    break;
+    case "35":
+         console.log ("eres un adulto");
+    break;
+}
+
+var altura = "1.80";
+switch("altura"){
+    case "1.30":
+          console.log ("eres pequeño");
+    break;
+    case "1.50":
+         console.log ("eres de estatura mediana");
+    break;
+    case "1.80":
+         console.log ("eres de estatura alta");
+    break;
+    case "2.0":
+         console.log ("eres de estatura muy alta");
+    break;
+}
+
+var auto = "nissan";
+switch("auto"){
+    case "camaro":
+          console.log ("tu auto favorto es de nissan");
+    break;
+    case "porch":
+         console.log ("tu auto favorito es un porch");
+    break;
+    case "tesla":
+         console.log ("tu auto facrito es un tesla");
+    break;
+    case "mercedes benz":
+         console.log ("tu auto faviro es un mercedes benz");
+    break;
+}
+
+// ejercicios combinar if switch
+var n = 6000;
+if (n > 3000){
+    console.log("puedes comprar en lacoste");
+}else{
+    switch (n){
+        case 1000:
+            console.log("puedes comprar en gucci");
+        break;
+        case 8000:
+            console.log("puedes comprar en versace");
+        break;
+        case 6000:
+            console.log("puedes comprar en calvin klein");
+        break;
+    }
+}
+
+var n = 8;
+if (n > 9){
+    console.log("excelente calificacion");
+}else{
+    switch (n){
+        case 9:
+            console.log("buena caloficacion");
+        break;
+        case 8:
+            console.log("calificacion regular");
+        break;
+        case 6:
+            console.log("calificacion reprobatoria");
+        break;
+    }
+}
+
+var frutas = "sandia";
+if (frutas == "mango"){
+    console.log("el kilo de mango esta en 10 pesos");
+}else{
+    switch (frutas){
+        case manzana:
+            console.log("el kilo de manzanas cuesta 15 pesos");
+        break;
+        case uva:
+            console.log("el kilo de uva cuesta 32 pesos");
+        break;
+    }
+}
